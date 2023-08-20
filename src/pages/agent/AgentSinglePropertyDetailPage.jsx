@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import { useState } from "react";
-import PropertyForAgentDashB from "../../components/forAgent/PropertyForAgentDashB";
+// import PropertyForAgentDashB from "../../components/forAgent/PropertyForAgentDashB";
 import { CiLocationOn } from "react-icons/ci";
-import { VscPass } from "react-icons/VSC";
-import { MdOutlineCancel } from "react-icons/md";
+import { GrStatusGood } from "react-icons/gr";
+// import { MdOutlineCancel } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Button from "../../components/in/Button";
 
@@ -206,8 +205,8 @@ const LocationText = styled.span`
   gap: 0.6rem;
 `;
 
-const Good = styled(VscPass)``;
-const Bad = styled(MdOutlineCancel)``;
+const Good = styled(GrStatusGood)``;
+// const Bad = styled(MdOutlineCancel)``;
 
 const AminitiContainer = styled.div`
   display: grid;
