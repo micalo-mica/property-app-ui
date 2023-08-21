@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useState } from "react";
-import { VscPass } from "react-icons/VSC";
-import { MdOutlineCancel } from "react-icons/md";
+import { GrStatusGood } from "react-icons/gr";
+// import { MdOutlineCancel } from "react-icons/md";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsFillStarFill } from "react-icons/bs";
 
@@ -94,8 +94,8 @@ const FeatureR = styled.p`
   font-size: 1rem;
   font-size: 0.9rem;
 `;
-const Good = styled(VscPass)``;
-const Bad = styled(MdOutlineCancel)``;
+const Good = styled(GrStatusGood)``;
+// const Bad = styled(MdOutlineCancel)``;
 
 // for agent
 
@@ -119,7 +119,7 @@ const AvatarContainer = styled.div`
   margin-bottom: 0.3rem;
   gap: 0.5rem;
 `;
-const Avatar = styled.img``;
+// const Avatar = styled.img``;
 const AvatarNRContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -163,7 +163,7 @@ const RightContainer = styled.div`
   align-items: center;
   gap: 1rem;
 `;
-const RightTextContainer = styled.div``;
+// const RightTextContainer = styled.div``;
 const RightText = styled.span``;
 
 // Rev
@@ -178,7 +178,7 @@ const AvatarReviewContainer = styled.div`
   align-items: center;
   gap: 1rem;
 `;
-const AvatarReviewImage = styled.img``;
+// const AvatarReviewImage = styled.img``;
 const AvatarReviewNSContainer = styled.div`
   display: flex;
   flex-direction: column;
