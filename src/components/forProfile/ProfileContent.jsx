@@ -9,7 +9,6 @@ import AgentUserPaymentDetail from "../forAgent/AgentUserPaymentDetail";
 
 const P = styled.div`
   color: ${({ theme }) => theme.colors.blue2};
-  margin-top: 5rem;
   padding-top: 2rem;
   @media (max-width: ${({ theme }) => theme.screens.xl}) {
   }
@@ -28,16 +27,8 @@ const P = styled.div`
   }
 `;
 const Container = styled.div`
-  /* background-color: ${({ theme }) => theme.colors.white};
-  -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
-  box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38); */
-  /* display: flex;
-  flex-direction: column;
-  gap: 2rem; */
-  /* padding: 1.5rem; */
   border-radius: 0.5rem;
-  /* min-height: 330px; */
+
   @media (max-width: ${({ theme }) => theme.screens.xl}) {
   }
   @media (max-width: ${({ theme }) => theme.screens.lg2}) {

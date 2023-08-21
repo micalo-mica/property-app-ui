@@ -26,7 +26,6 @@ const P = styled.div`
   }
 `;
 const Container = styled.div`
-  margin-top: 5rem;
   position: sticky;
   top: 0rem;
   height: 100%;
@@ -36,7 +35,6 @@ const Container = styled.div`
   box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
   gap: 4rem;
   padding: 1.5rem;
   border-radius: 0.5rem;
